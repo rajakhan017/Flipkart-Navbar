@@ -1,0 +1,156 @@
+.header {
+	height: 55px;
+	width: 100%;
+	background-color: var(--flipkart-blue);
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	align-items: center;
+	gap: 20px;
+}
+
+.branding {
+	display: flex;
+	flex-direction: column;
+	margin-left: 7%;
+}
+
+.sub-branding {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	margin-left: 68px;
+}
+
+.sub-branding p {
+	font-size: 12px;
+	font-style: italic;
+	font-weight: 600;
+	color: #fff;
+}
+
+p span {
+	color: var(--flipkart-yellow);
+}
+
+.search-bar {
+	display: flex;
+	background-color: #fff;
+	border-radius: 2px;
+	box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+input {
+	height: 35px;
+	width: 480px;
+	border: none;
+	padding-left: 20px;
+	outline: none;
+	border-radius: 2px;
+}
+
+input::-webkit-input-placeholder {
+	font-weight: 500;
+	font-size: 14px;
+}
+
+input:-moz-placeholder {
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.icon {
+	background-color: #fff;
+	height: 35px;
+	width: 40px;
+	cursor: pointer;
+	border-radius: 2px;
+}
+
+.icon svg {
+	margin-top: 5px;
+}
+
+.login button {
+	height: 30px;
+	width: 130px;
+	color: var(--flipkart-blue);
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+	font-size: 15px;
+	border-radius: 1px;
+}
+
+.become-seller,
+.more,
+.cart {
+	color: #fff;
+	font-weight: 500;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.more {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	margin-left: 10px;
+}
+
+.cart {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	margin-left: 15px;
+}
+:root {
+	--flipkart-blue: #3d71e7;
+	--flipkart-yellow: #ffc200;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Inter', sans-serif;
+}
+.sub-header {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+}
+
+.sub-header p {
+	margin-top: 10px;
+	font-size: 13px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.sub-header img {
+	height: 70px;
+	cursor: pointer;
+}
+
+.item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.desc {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+	cursor: pointer;
+}
+
+.desc svg {
+	margin-top: 10px;
+}
